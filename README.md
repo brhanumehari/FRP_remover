@@ -12,47 +12,7 @@ A comprehensive Factory Reset Protection (FRP) removal toolkit for Android 10 th
 - **Automated Detection**: Device and Android version auto-detection
 - **Logging & Debug**: Comprehensive logging for troubleshooting
 
-## 📁 Project Structure
 
-```
-FRP_remover/
-├── README.md                 # Main documentation
-├── LICENSE                   # MIT License with legal disclaimer
-├── .gitignore               # Git ignore configuration
-├── docs/                    # Detailed guides
-│   ��── SETUP.md            # Installation guide
-│   ├── USAGE.md            # Usage instructions
-│   ├── SUPPORTED_DEVICES.md # Device compatibility
-│   └── TROUBLESHOOTING.md  # Troubleshooting guide
-├── bash/                   # Bash scripts
-│   ├── install.sh         # Main installer
-│   ├── frp-remover.sh     # Main FRP removal script
-│   ├── utils/             # Utility functions
-│   │   ├── device-detect.sh
-│   │   ├── adb-setup.sh
-│   │   ├── samsung-bypass.sh
-│   │   ├── google-bypass.sh
-│   │   ├── miui-bypass.sh
-│   │   ├── oneplus-bypass.sh
-│   │   └── logger.sh
-│   └── config/            # Configuration files
-│       └── devices.conf
-├── rust/                  # Rust implementation
-│   ├── Cargo.toml        # Project manifest
-│   ├── Cargo.lock
-│   ├── src/
-│   │   ├── main.rs
-│   │   ├── lib.rs
-│   │   ├── device.rs
-│   │   ├── frp_bypass.rs
-│   │   ├── adb.rs
-│   │   └── commands.rs
-│   └── build.sh          # Build script for Termux
-├── tools/               # Pre-built binaries
-│   └── .gitkeep
-├── logs/                # Logs directory
-└── .gitignore          # Git ignore file
-```
 
 ## 🚀 Quick Start
 
